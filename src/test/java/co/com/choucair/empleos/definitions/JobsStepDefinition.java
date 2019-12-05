@@ -31,8 +31,6 @@ public class JobsStepDefinition {
         choucairJobsStep.checkText(data);
     }
 
-
-//#####//
     @Given("^that (.*) wants to join performance work$")
     public void thatLuisWantsToJoinPerformanceWork(String luis) {
         choucairJobsStep.openPage();
@@ -41,7 +39,7 @@ public class JobsStepDefinition {
     }
 
     @When("^he  fills  the form$")
-    public void heFillsTheForm(List<DataModelStep> data) throws AWTException{
+    public void heFillsTheForm(List<DataModelStep> data) throws AWTException {
         choucairJobsStep.applyToJob(data);
     }
 
@@ -50,15 +48,11 @@ public class JobsStepDefinition {
         choucairJobsStep.checkTextOnApplyJob(data);
     }
 
-
-
-
     @Given("^that (.*) wants search a word in the section jobs$")
     public void thatLuisWantsSearchAWordInTheSectionJobs(String luis) {
         choucairJobsStep.openPage();
         choucairJobsStep.openJobs();
         choucairJobsStep.scrollSearchJobs();
-
     }
 
     @When("^he write the word (.*)$")

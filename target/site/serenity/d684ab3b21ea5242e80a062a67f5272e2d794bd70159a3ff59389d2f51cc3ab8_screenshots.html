@@ -89,7 +89,7 @@
                 > <span class="truncate-40"><a
                     href="76ce7988c2c8cde7e990d917c5ac9dc333bb811c11caccbbe8d1710c5e040cca.html">Choucair Module Jobs</a></span>
                 > <span class="truncate-60"><a
-                    href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7.html">Search </a></span>
+                    href="d684ab3b21ea5242e80a062a67f5272e2d794bd70159a3ff59389d2f51cc3ab8.html">Search for a word that is required to apply to work </a></span>
                 > Screenshots
             </span>
         </div>
@@ -111,7 +111,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2019 11:38</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2019 11:46</span>
     <br style="clear:left"/>
 </div>
 
@@ -143,7 +143,7 @@ To perform a search on available jobs.
                         <td valign="top" align="right">
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;"
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="bca18eb34184f466810ee7a90d04748e21a2df6dea7311083e75ce6b8ed2a2f5.html">Tag1
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="0b75170b699f66f3081513610ac707ffc0e78a3ee5835fc9cb7825a6c9b5d539.html">Medico
                                     (tag)</a>
                                 </span>
                             </p>
@@ -161,9 +161,9 @@ To perform a search on available jobs.
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                <span class="success-color">Search
+                                <span class="error-color">Search for a word that is required to apply to work
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -180,20 +180,66 @@ To perform a search on available jobs.
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+                        <div class="panel-heading title="No such element exception: The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'Driver info: driver.version: unknownFor documentation on this error, please visit: http://seleniumhq.org/exceptionso_such_element.htmlBuild info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'Driver info: driver.version: unknown">
+                            No such element exception: The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)Build info: version: '3.11.0'...
+                        </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-overall">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-overall" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    org.openqa.selenium.NoSuchElementException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'<br>Driver info: driver.version: unknown<br>For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'<br>Driver info: driver.version: unknown</pre>
+                                    </h5>
+                                    co.com.choucair.empleos.pagesobject.ChoucairJobsPageObject.verifyResultTextNoWork(ChoucairJobsPageObject.java
+                                    :154) <br>
+                                    co.com.choucair.empleos.steps.ChoucairJobsStep.checkTextNoWork(ChoucairJobsStep.java
+                                    :58) <br>
+                                    co.com.choucair.empleos.definitions.JobsStepDefinition.heSeesTheTextNoHayTrabajosCorrespondientesATuBúsqueda(JobsStepDefinition.java
+                                    :65) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
+
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource9079064860803884139.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png" title="Given that Luis wants to access choucair jobs" width="1366"/>
+                <img src="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png" title="Given that Luis wants search a word in the section jobs" width="1366"/>
                 <img src="6aa55388ea1db6582456034b89b276d265663f77b33ce593bbd769f1a030c287.png" title="Open page" width="1366"/>
                 <img src="8aca034d648854ff5ca8d7a7f7a32c3e0aae745b21c3dbf7f5b39e5340480603.png" title="Open jobs" width="1366"/>
                 <img src="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png" title="Scroll search jobs" width="1366"/>
-                <img src="890fe810303b73430113e4023127311325914a54024d67053f6e1df1fdad3464.png" title="When he performs the search on the page
-| keyword | location |
-| Performance | medellin |" width="1366"/>
-                <img src="90fd4771bb624c278b71f8393153a18788b07f9a94cb3528bfe0220012fd2500.png" title="Registrar data: [co.com.choucair.empleos.steps.DataModelStep@624d7f23]" width="1366"/>
-                <img src="77bc2f0319f002462107b64bd4edf70914e3c2349cb67584b14398bd5a0f6cf5.png" title="Then he verifies that the text searched is displayed on the screen
-| result |
-| Performance |" width="1366"/>
-                <img src="890fe810303b73430113e4023127311325914a54024d67053f6e1df1fdad3464.png" title="Check text: [co.com.choucair.empleos.steps.DataModelStep@4e79c9ae]: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="12883fbbf8e5e1e2a83f8d5501d397dbcc4649df59c22c2f8ac7bd454f66c70c.png" title="When he write the word medico" width="1366"/>
+                <img src="267fd67009654094ae09a2f88ecbcf37bf7245860abf5cb2113dea19e2985c1a.png" title="Check text no work: No hay trabajos correspondientes a tu b&uacute;squeda: <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

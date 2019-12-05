@@ -31,9 +31,9 @@
       Then he sees the text No hay trabajos correspondientes a tu búsqueda
 
     @Tag4
-    Scenario: Search word out of context
+    Scenario: Search for a word that is required to apply to work
       Given that Luis wants search a word in the section jobs
-      When he write the word DF
+      When he write the word medico
       Then he sees the text No hay trabajos correspondientes a tu búsqueda
 
 
