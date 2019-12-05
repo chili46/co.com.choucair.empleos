@@ -1,8 +1,4 @@
 # Project exclude paths
-/.gradle/
-/build/
-/build/classes/java/test/
-
 # Compiled class file
 *.class
 
