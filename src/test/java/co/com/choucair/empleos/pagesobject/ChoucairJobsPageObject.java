@@ -13,9 +13,11 @@ import net.thucydides.core.annotations.DefaultUrl;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.MoveMouseAction;
 import org.openqa.selenium.support.FindBy;
+
 import java.awt.*;
 import java.io.FileInputStream;
 import java.util.List;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
@@ -33,11 +35,17 @@ public class ChoucairJobsPageObject extends PageObject {
     @FindBy(id = "search_keywords")
     WebElementFacade ENTER_KEY_WORD;
 
+    @FindBy(id = "search_location")
+    WebElementFacade ENTER_LOCATION;
+
     @FindBy(className = "search_submit")
     WebElementFacade BUTTON_SEARCH_JOBS;
 
     @FindBy(xpath = "//ul[@class='job_listings']/li")
     WebElementFacade ANSWER;
+
+    @FindBy(xpath = "//div[@class='location']")
+    WebElementFacade ANSWER_LOCATION;
 
     @FindBy(xpath = "//li[@class='post-387 job_listing type-job_listing status-publish has-post-thumbnail hentry job_position_featured']//a")
     WebElementFacade JOB_OFFER;
@@ -86,7 +94,6 @@ public class ChoucairJobsPageObject extends PageObject {
 
     @FindBy(className = "no_job_listings_found")
     WebElementFacade NO_WORK_FOR_THE_SEARCH;
-
 
 
     public void openJobsModule() {
@@ -150,7 +157,19 @@ public class ChoucairJobsPageObject extends PageObject {
     }
 
     public void verifyResultTextNoWork(String textNoWork) {
-
         assertThat(NO_WORK_FOR_THE_SEARCH.getText(), containsString(textNoWork));
+    }
+
+    public void writeDataToBothFields(List<DataModelStep> data) {
+        ENTER_KEY_WORD.sendKeys(data.get(0).getKeyword());
+        ENTER_LOCATION.sendKeys(data.get(0).getLocation());
+        BUTTON_SEARCH_JOBS.click();
+    }
+
+    public void verifyKeyWord(String keyWord) {
+        assertThat(keyWord, containsText(ANSWER.getText()));
+    }
+    public void verifyLocation(String location) {
+        assertThat(location, containsText(ANSWER_LOCATION.getText()));
     }
 }

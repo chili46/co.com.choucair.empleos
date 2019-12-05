@@ -26,7 +26,7 @@ public class ChoucairJobsStep {
     }
 
     @Step
-    public void registrarData(List<DataModelStep> data) throws AWTException {
+    public void enterData(List<DataModelStep> data) throws AWTException {
         choucairJobsPageObject.addDataToSearch(data);
     }
 
@@ -56,5 +56,17 @@ public class ChoucairJobsStep {
 
     public void checkTextNoWork(String textNoWork) {
         choucairJobsPageObject.verifyResultTextNoWork(textNoWork);
+    }
+
+    public void enterDataToBothFields(List<DataModelStep> data) {
+        choucairJobsPageObject.writeDataToBothFields(data);
+    }
+
+    public void checkKeyWord(String keyWord) {
+        choucairJobsPageObject.verifyKeyWord(keyWord);
+    }
+
+    public void checkLocation(String location) {
+        choucairJobsPageObject.verifyLocation(location);
     }
 }

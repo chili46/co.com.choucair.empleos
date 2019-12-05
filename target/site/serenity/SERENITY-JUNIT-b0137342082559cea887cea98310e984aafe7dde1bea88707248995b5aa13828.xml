@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Choucair module jobs" skipped="0" tests="1" time="18.59" timestamp="2019-12-05 10:44:08"><testcase name="Search word out of context"><failure message="&#10;Expected: a string containing &quot;No hay trabajos correspondientes a tu busqueda&quot;&#10;     but: was &quot;No hay trabajos correspondientes a tu búsqueda.&quot;" type="java.lang.AssertionError">
-Expected: a string containing "No hay trabajos correspondientes a tu busqueda"
-     but: was "No hay trabajos correspondientes a tu búsqueda."</failure><system-err>
-Expected: a string containing "No hay trabajos correspondientes a tu busqueda"
-     but: was "No hay trabajos correspondientes a tu búsqueda."&#13;
-co.com.choucair.empleos.pagesobject.ChoucairJobsPageObject.verifyResultTextNoWork(ChoucairJobsPageObject.java:154)&#13;
-co.com.choucair.empleos.steps.ChoucairJobsStep.checkTextNoWork(ChoucairJobsStep.java:58)&#13;
-co.com.choucair.empleos.definitions.JobsStepDefinition.heSeesTheTextNoHayTrabajosCorrespondientesATuBúsqueda(JobsStepDefinition.java:71)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Choucair module jobs" skipped="0" tests="1" time="18.7" timestamp="2019-12-05 02:53:49"><testcase name="Search word out of context"/></testsuite>

@@ -4,7 +4,7 @@
     as a user I want to enter choucair jobs
     To perform a search on available jobs.
 
-    @Tag1
+    @SearchByKeyWord
     Scenario: Search
       Given that Luis wants to access choucair jobs
       When he performs the search on the page
@@ -14,7 +14,7 @@
         | result      |
         | Performance |
 
-    @Tag2
+    @ApplyToJob
     Scenario: Sign up for work
       Given that Luis wants to join performance work
       When he  fills  the form
@@ -24,16 +24,30 @@
         | resultText                    |
         | Por favor verifica el captcha |
 
-    @Tag3
+    @SearchCharacter
     Scenario: Search word out of context
       Given that Luis wants search a word in the section jobs
       When he write the word DF
       Then he sees the text No hay trabajos correspondientes a tu búsqueda
 
-    @Tag4
+    @SearchWordOfRequiredToWork
     Scenario: Search for a word that is required to apply to work
       Given that Luis wants search a word in the section jobs
       When he write the word medico
       Then he sees the text No hay trabajos correspondientes a tu búsqueda
 
+    @SearchSpecialCharacter
+    Scenario: Search for a character
+      Given that Luis wants search a word in the section jobs
+      When he write the word +
+      Then he sees the text No hay trabajos correspondientes a tu búsqueda
+
+    @SearchBothFields
+    Scenario: Find a work with location
+      Given that Luis wants search a work in the section jobs with both field
+      When he write the words
+        | keyword | location |
+        | pruebas | bogota   |
+      Then he verifies that the keyword pruebas is displayed in the screen
+      And the city bogotá displayed in the screen
 

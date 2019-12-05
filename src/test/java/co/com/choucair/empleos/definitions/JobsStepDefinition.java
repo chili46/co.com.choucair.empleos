@@ -23,7 +23,7 @@ public class JobsStepDefinition {
 
     @When("^he performs the search on the page$")
     public void hePerformsTheSearchOnThePage(List<DataModelStep> data) throws AWTException {
-        choucairJobsStep.registrarData(data);
+        choucairJobsStep.enterData(data);
     }
 
     @Then("^he verifies that the text searched is displayed on the screen$")
@@ -64,5 +64,33 @@ public class JobsStepDefinition {
     public void heSeesTheTextNoHayTrabajosCorrespondientesATuBúsqueda(String textNoWork) {
         choucairJobsStep.checkTextNoWork(textNoWork);
     }
+
+    //############################################//
+
+    @Given("^that Luis wants search a work in the section jobs with both field$")
+    public void thatLuisWantsSearchAWorkInTheSectionJobsWithBothField() {
+        choucairJobsStep.openPage();
+        choucairJobsStep.openJobs();
+        choucairJobsStep.scrollSearchJobs();
+    }
+
+    @When("^he write the words$")
+    public void heWriteTheWords(List<DataModelStep> data) throws AWTException {
+        choucairJobsStep.enterDataToBothFields(data);
+    }
+
+    @Then("^he verifies that the keyword (.*) is displayed in the screen$")
+    public void heVerifiesThatTheKeywordPruebasIsDisplayedInTheScreen(String keyWord) {
+        choucairJobsStep.checkKeyWord(keyWord);
+    }
+
+    @Then("^the city (.*) displayed in the screen$")
+    public void theCityBogotáIsDisplayedInTheScreen(String location) {
+        choucairJobsStep.checkLocation(location);
+    }
+
+
+
+
 
 }
