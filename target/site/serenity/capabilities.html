@@ -49,11 +49,11 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 3],
-                ['Pending', 0],
+                ['Passing', 4],
+                ['Pending', 2],
                 ['Ignored', 0],
                 ['Failing', 0],
-                ['Errors',  0],
+                ['Errors',  2],
                 ['Compromised',  0],
                 ['Untested',  0],
             ]
@@ -82,11 +82,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '3 requirements tested successfully'},
-                {label: '0 requirements pending'},
+                {label: '4 requirements tested successfully'},
+                {label: '2 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
-                {label: '0} requirements with errors'},
+                {label: '2} requirements with errors'},
                 {label: '0} requirements compromised'},
                 {label: '0} requirements untested'},
             ]
@@ -177,7 +177,7 @@
             <a href="#"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 04-12-2019 16:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2019 18:47</span>
     <br style="clear:left"/>
 </div>
 
@@ -211,10 +211,10 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>3</td>
-                                    <td>3</td>
-                                    <td>0</td>
-                                    <td>0</td>
+                                    <td>8</td>
+                                    <td>4</td>
+                                    <td>2</td>
+                                    <td>2</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -242,31 +242,31 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>3</td>
-            <td>3 (100%)</td>
-            <td>0 (0%)</td>
+            <td>6</td>
+            <td>4 (67%)</td>
+            <td>2 (33%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Manual</td>
-            <td>0</td>
+            <td>2</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>2 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>3</td>
-            <td>3 (100%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
+            <td>8</td>
+            <td>4 (50%)</td>
+            <td>2 (25%)</td>
+            <td>2 (25%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">20 seconds</td>
+                <td colspan="5">1 minutes 53 seconds</td>
         </tr>
         </body>
     </table>
@@ -312,9 +312,9 @@
                                 <td class="SUCCESS-text">8</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-12-04 16:50:04">16:50:04</td>
+                                <td class="SUCCESS-text" data-sort="2019-12-05 18:47:35">18:47:35</td>
 
-                                <td class="SUCCESS-text">19.71</td>
+                                <td class="SUCCESS-text">18.87</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -332,12 +332,12 @@
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">3</td>
+                                <td class="SUCCESS-text">7</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-12-04 16:50:24">16:50:24</td>
+                                <td class="SUCCESS-text" data-sort="2019-12-05 18:47:53">18:47:53</td>
 
-                                <td class="SUCCESS-text">0.02</td>
+                                <td class="SUCCESS-text">20.7</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -355,12 +355,127 @@
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">3</td>
+                                <td class="SUCCESS-text">6</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-12-04 16:50:24">16:50:24</td>
+                                <td class="SUCCESS-text" data-sort="2019-12-05 18:48:14">18:48:14</td>
 
-                                <td class="SUCCESS-text">0.02</td>
+                                <td class="SUCCESS-text">15.42</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="d684ab3b21ea5242e80a062a67f5272e2d794bd70159a3ff59389d2f51cc3ab8.html" class="ellipsis"
+                                           title="Search for a word that is required to apply to work No such element exception: The follow...">
+                                            Search for a word that is required to apply to work
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">7</td>
+
+
+                                <td class="ERROR-text" data-sort="2019-12-05 18:48:30">18:48:30</td>
+
+                                <td class="ERROR-text">20.76</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="948516afad84f436509fc785cf9d2f14607d43bbc06532039c37bac910a545b3.html" class="ellipsis"
+                                           title="Search for a character No such element exception: The follow...">
+                                            Search for a character
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">7</td>
+
+
+                                <td class="ERROR-text" data-sort="2019-12-05 18:48:50">18:48:50</td>
+
+                                <td class="ERROR-text">20.35</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
+                                        <a href="9eacaf0007307cf2236ea0e42ab0ef33c13f67b0970a15fe7c589267e32778e5.html" class="ellipsis"
+                                           title="Find a work with location ">
+                                            Find a work with location
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">7</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-12-05 18:49:11">18:49:11</td>
+
+                                <td class="SUCCESS-text">17.12</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    <i class="fa fa-user manual" title="Manual test"></i>
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="44628b93e60e913a951aec27186cda95ff4ca823165b64b5e94c18f21c1040e9.html" class="ellipsis"
+                                           title="Text ">
+                                            Text
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">3</td>
+
+
+                                <td class="PENDING-text" data-sort="2019-12-05 18:49:28">18:49:28</td>
+
+                                <td class="PENDING-text">0</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    <i class="fa fa-user manual" title="Manual test"></i>
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="31a5daaea6e5f6c028ad4e0e7ea273616947e07ce048d32ae624ec2f89aa579b.html" class="ellipsis"
+                                           title="Redirection (Link) ">
+                                            Redirection (Link)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">3</td>
+
+
+                                <td class="PENDING-text" data-sort="2019-12-05 18:49:28">18:49:28</td>
+
+                                <td class="PENDING-text">0</td>
                             </tr>
                         </tbody>
                     </table>

@@ -51,3 +51,16 @@
       Then he verifies that the keyword pruebas is displayed in the screen
       And the city bogotá displayed in the screen
 
+    @Manual
+    Scenario: Text
+      Given that Luis wants to verify the correct use of spelling
+      When he checks the correct use of spelling
+      Then he sees that it is well written
+
+    @Manual
+    Scenario: Redirection (Link)
+      Given that Luis wants to verify the correct redirection of the links
+      When he clicks on the link
+      Then he sees that it takes him to the right page
+
+

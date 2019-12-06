@@ -2,7 +2,6 @@ package co.com.choucair.empleos.steps;
 
 import co.com.choucair.empleos.pagesobject.ChoucairJobsPageObject;
 import net.thucydides.core.annotations.Step;
-
 import java.awt.*;
 import java.util.List;
 
@@ -41,7 +40,7 @@ public class ChoucairJobsStep {
     }
 
     @Step
-    public void applyToJob(List<DataModelStep> data)throws AWTException{
+    public void applyToJob(List<DataModelStep> data) throws AWTException {
         choucairJobsPageObject.fillForm(data);
     }
 

@@ -2,10 +2,8 @@ package co.com.choucair.empleos.definitions;
 
 import co.com.choucair.empleos.steps.ChoucairJobsStep;
 import co.com.choucair.empleos.steps.DataModelStep;
-import cucumber.api.DataTable;
 import cucumber.api.java.en.*;
 import net.thucydides.core.annotations.Steps;
-
 import java.awt.*;
 import java.util.List;
 
@@ -65,8 +63,6 @@ public class JobsStepDefinition {
         choucairJobsStep.checkTextNoWork(textNoWork);
     }
 
-    //############################################//
-
     @Given("^that Luis wants search a work in the section jobs with both field$")
     public void thatLuisWantsSearchAWorkInTheSectionJobsWithBothField() {
         choucairJobsStep.openPage();
@@ -88,9 +84,6 @@ public class JobsStepDefinition {
     public void theCityBogotáIsDisplayedInTheScreen(String location) {
         choucairJobsStep.checkLocation(location);
     }
-
-
-
 
 
 }

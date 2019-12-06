@@ -18,3 +18,5 @@ Msrc/test/java/co/com/choucair/empleos/pagesobject/ChoucairJobsPageObject.java,
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+c
+3src/test/resources/features/choucairEmpleos.feature,8\c\8cb45e99c11da060b80fdd80cdbe78ffb4e25f68
