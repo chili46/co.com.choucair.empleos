@@ -19,6 +19,7 @@ public class JobsStepDefinition {
         choucairJobsStep.scrollSearchJobs();
     }
 
+
     @When("^he performs the search on the page$")
     public void hePerformsTheSearchOnThePage(List<DataModelStep> data) throws AWTException {
         choucairJobsStep.enterData(data);

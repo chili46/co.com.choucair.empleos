@@ -86,6 +86,8 @@ public class ChoucairJobsPageObject extends PageObject {
     WebElementFacade NO_WORK_FOR_THE_SEARCH;
 
 
+
+
     public void openJobsModule() {
         CLICK_JOBS.click();
     }

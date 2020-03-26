@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-12-2019 18:47</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-03-2020 16:38</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -128,9 +128,9 @@ To perform a search on available jobs.
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="error-color">
                                     Search
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -155,22 +155,21 @@ To perform a search on available jobs.
                     <th width="65">                        &nbsp;
                     </th>
 
-                    <th width="%" class="step-description-column greentext">
+                    <th width="%" class="step-description-wide-column greentext">
                         Steps
                     </th>
-                    <th width="120" class="greentext">Screenshot</th>
                     <th width="100" class="greentext">Outcome</th>
                     <th width="75" class="greentext">Duration</th>
                 </tr>
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 error-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -185,27 +184,18 @@ To perform a search on available jobs.
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=0">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png"
-                                         href="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">16.06s</span></td>
+                    <td width="100"><span class="top-level-step">ERROR</span></td>
+                    <td width="100"><span class="top-level-step">9.78s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
                     <table id="stepSection0" style="display:none; width:100%">
 
-                <tr class="test-SUCCESS">
+                <tr class="test-ERROR">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                  class="nested-group-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
@@ -215,210 +205,116 @@ To perform a search on available jobs.
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=1">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="6aa55388ea1db6582456034b89b276d265663f77b33ce593bbd769f1a030c287.png"
-                                         href="6aa55388ea1db6582456034b89b276d265663f77b33ce593bbd769f1a030c287.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">11.38s</span></td>
+                    <td width="100"><span class="nested-group-step">ERROR</span></td>
+                    <td width="100"><span class="nested-group-step">9.14s</span></td>
                 </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Open jobs
-                            </span>
+                    <tr class="test-ERROR">
+                        <td width="40">&nbsp</td>
+                        <td width="%" colspan="4" class="error-message-cell">
+                            <div class="error-message ellipsis"
+                                 title='Unsupported driver exception: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver'>
+                                <pre>Unsupported driver exception: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</pre>
+                            </div>
+                <div><!-- Stack trace -->
+                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                            data-target="#stacktraceModal-2">
+                        View details
+                    </button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="stacktraceModal-2" tabindex="-1" role="dialog"
+                     aria-labelledby="stacktraceModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="stacktraceModalLabel">
+                                    net.thucydides.core.webdriver.UnsupportedDriverException
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <h5>
+                                        <pre>Could not instantiate class org.openqa.selenium.chrome.ChromeDriver</pre>
+                                    </h5>
+                                    co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java
+                                    :14) <br>
+                                    co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsToAccessChoucairJobs(JobsStepDefinition.java
+                                    :17) <br>
+                                    cucumber.runner.Runner.runPickle(Runner.java
+                                    :80) <br>
+                            </div>
 
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=2">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="8aca034d648854ff5ca8d7a7f7a32c3e0aae745b21c3dbf7f5b39e5340480603.png"
-                                         href="8aca034d648854ff5ca8d7a7f7a32c3e0aae745b21c3dbf7f5b39e5340480603.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">3.26s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Scroll search jobs
-                            </span>
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"
+                                            aria-label="Close"><span aria-hidden="true">&times;</span>
+                                    </button>
+                                    <h4 class="modal-title" id="stacktraceModalLabel">
+                                        Caused by: net.thucydides.core.webdriver.UnsupportedDriverException
+                                    </h4>
+                                </div>
+                                <div class="modal-body">
+                                        <pre>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78<br>Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'<br>System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'<br>Driver info: driver.version: ChromeDriver<br>remote stacktrace: Backtrace:<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0050A903+1550595]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0048A701+1025793]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0040C6E5+509669]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0039FC68+64616]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0039C594+50580]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003BACE7+175335]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003BA8ED+174317]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003B8CDB+167131]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003A144A+70730]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003A24D0+74960]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x003A2469+74857]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x004A42C7+1131207]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x005A70FD+523789]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x005A6E90+523168]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x005AE1E7+552695]<br>&nbsp; &nbsp; &nbsp; &nbsp;GetHandleVerifier [0x005A78FA+525834]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x0049B7FC+1095676]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x004A633B+1139515]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x004A64A3+1139875]<br>&nbsp; &nbsp; &nbsp; &nbsp;Ordinal0 [0x004A5425+1135653]<br>&nbsp; &nbsp; &nbsp; &nbsp;BaseThreadInitThunk [0x77076359+25]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]<br>&nbsp; &nbsp; &nbsp; &nbsp;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]</pre>
+                                    <pre>
+                                        co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java :14) <br>
+                                        co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsToAccessChoucairJobs(JobsStepDefinition.java :17) <br>
+                                        cucumber.runner.Runner.runPickle(Runner.java :80) <br>
+                                    </pre>
+                                </div>
 
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
                         </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=3">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png"
-                                         href="f36924bd98bf71dfb3a66cf69305740074e41b3e763d8e89eb2550d88f76fd34.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                    </div>
+                </div>
                         </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.48s</span></td>
-                </tr>
+                    </tr>
 
                     </table>
                     </td>
                     <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
                             <span class="top-level-step">
                                 When he performs the search on the page<br><table class='embedded'><thead><th>keyword</th><th>location</th></thead><tbody><tr><td>Performance</td><td>medellin</td></tr></tbody></table>
                             </span>
-                            </a>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=4">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         href="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">1.23s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Enter data: [co.com.choucair.empleos.steps.DataModelStep@624d7f23]
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=5">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="d440074fa462d19805189cd1a87693d6d774d687bd1321027d22a65cdefc215b.png"
-                                         href="d440074fa462d19805189cd1a87693d6d774d687bd1321027d22a65cdefc215b.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.81s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-SKIPPED">
                     <td width="60" class="step-icon">
                         <a name="2"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
+                            <span style="margin-left: 20px; margin-right: 5px;"
+                                  class="top-level-icon"><i class='fa fa-fast-forward skipped-icon ' title='SKIPPED'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
-                               style="display:block;">
                             <span class="top-level-step">
                                 Then he verifies that the text searched is displayed on the screen<br><table class='embedded'><thead><th>result</th></thead><tbody><tr><td>Performance</td></tr></tbody></table>
                             </span>
-                            </a>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=6">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         href="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.84s</span></td>
+                    <td width="100"><span class="top-level-step">SKIPPED</span></td>
+                    <td width="100"><span class="top-level-step">0s</span></td>
                 </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection2" style="display:none; width:100%">
-
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        
-                            <span style="margin-left: 40px; margin-right: 5px;"
-                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="nested-group-step">
-                                Check text: [co.com.choucair.empleos.steps.DataModelStep@4e79c9ae]
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="544b792c654ab0e1827ae55356641e359cce10d1070fc9d7988eeb104a36b6e7_screenshots.html#screenshots?screenshot=7">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         href="a9fa48a9d0343be9a15c616e868550f9f6daa62dd229d3d74f8b7a5bb5cfbeff.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">0.48s</span></td>
-                </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
-                    <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>18.87s</em></span></td>
+                <tr class="test-ERROR">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>ERROR</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>10.7s</em></span></td>
                 </tr>
 
             </table>
