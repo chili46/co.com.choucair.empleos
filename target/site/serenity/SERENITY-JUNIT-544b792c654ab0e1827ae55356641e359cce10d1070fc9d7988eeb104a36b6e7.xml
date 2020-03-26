@@ -1,39 +1,361 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="2" failures="0" name="Choucair module jobs" skipped="2" tests="8" time="113.21" timestamp="2019-12-05 06:47:35"><testcase name="Search"/><testcase name="Sign up for work"/><testcase name="Search word out of context"/><testcase name="Search for a word that is required to apply to work"><error message="The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="Choucair module jobs" skipped="2" tests="8" time="42.81" timestamp="2020-03-03 04:38:51"><testcase name="Search"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown&#13;
-co.com.choucair.empleos.pagesobject.ChoucairJobsPageObject.verifyResultTextNoWork(ChoucairJobsPageObject.java:146)&#13;
-co.com.choucair.empleos.steps.ChoucairJobsStep.checkTextNoWork(ChoucairJobsStep.java:57)&#13;
-co.com.choucair.empleos.definitions.JobsStepDefinition.heSeesTheTextNoHayTrabajosCorrespondientesATuBúsqueda(JobsStepDefinition.java:63)&#13;
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsToAccessChoucairJobs(JobsStepDefinition.java:17)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase><testcase name="Search for a character"><error message="The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+</system-err></testcase><testcase name="Sign up for work"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
 Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown</error><system-err>The following error occurred: Expected condition failed: waiting for ChoucairJobsPageObject.NO_WORK_FOR_THE_SEARCH to be displayed (tried for 5 second(s) with 100 milliseconds interval)
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
-System info: host: 'DESKTOP-T0R6D0A', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
-Driver info: driver.version: unknown&#13;
-co.com.choucair.empleos.pagesobject.ChoucairJobsPageObject.verifyResultTextNoWork(ChoucairJobsPageObject.java:146)&#13;
-co.com.choucair.empleos.steps.ChoucairJobsStep.checkTextNoWork(ChoucairJobsStep.java:57)&#13;
-co.com.choucair.empleos.definitions.JobsStepDefinition.heSeesTheTextNoHayTrabajosCorrespondientesATuBúsqueda(JobsStepDefinition.java:63)&#13;
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsToJoinPerformanceWork(JobsStepDefinition.java:34)&#13;
 cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase><testcase name="Find a work with location"/><testcase name="Text"><skipped/></testcase><testcase name="Redirection (Link)"><skipped/></testcase></testsuite>
+</system-err></testcase><testcase name="Search word out of context"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsSearchAWordInTheSectionJobs(JobsStepDefinition.java:51)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Search for a word that is required to apply to work"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsSearchAWordInTheSectionJobs(JobsStepDefinition.java:51)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Search for a character"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsSearchAWordInTheSectionJobs(JobsStepDefinition.java:51)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Find a work with location"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78&#10;Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'&#10;System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x0050A903+1550595]&#10;&#9;Ordinal0 [0x0048A701+1025793]&#10;&#9;Ordinal0 [0x0040C6E5+509669]&#10;&#9;Ordinal0 [0x0039FC68+64616]&#10;&#9;Ordinal0 [0x0039C594+50580]&#10;&#9;Ordinal0 [0x003BACE7+175335]&#10;&#9;Ordinal0 [0x003BA8ED+174317]&#10;&#9;Ordinal0 [0x003B8CDB+167131]&#10;&#9;Ordinal0 [0x003A144A+70730]&#10;&#9;Ordinal0 [0x003A24D0+74960]&#10;&#9;Ordinal0 [0x003A2469+74857]&#10;&#9;Ordinal0 [0x004A42C7+1131207]&#10;&#9;GetHandleVerifier [0x005A70FD+523789]&#10;&#9;GetHandleVerifier [0x005A6E90+523168]&#10;&#9;GetHandleVerifier [0x005AE1E7+552695]&#10;&#9;GetHandleVerifier [0x005A78FA+525834]&#10;&#9;Ordinal0 [0x0049B7FC+1095676]&#10;&#9;Ordinal0 [0x004A633B+1139515]&#10;&#9;Ordinal0 [0x004A64A3+1139875]&#10;&#9;Ordinal0 [0x004A5425+1135653]&#10;&#9;BaseThreadInitThunk [0x77076359+25]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B74+228]&#10;&#9;RtlGetAppContainerNamedObjectPath [0x77A77B44+180]&#10;" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.chrome.ChromeDriver (session not created: This version of ChromeDriver only supports Chrome version 78
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'CHMEPPF0HFQ4T', ip: '192.168.0.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0050A903+1550595]
+	Ordinal0 [0x0048A701+1025793]
+	Ordinal0 [0x0040C6E5+509669]
+	Ordinal0 [0x0039FC68+64616]
+	Ordinal0 [0x0039C594+50580]
+	Ordinal0 [0x003BACE7+175335]
+	Ordinal0 [0x003BA8ED+174317]
+	Ordinal0 [0x003B8CDB+167131]
+	Ordinal0 [0x003A144A+70730]
+	Ordinal0 [0x003A24D0+74960]
+	Ordinal0 [0x003A2469+74857]
+	Ordinal0 [0x004A42C7+1131207]
+	GetHandleVerifier [0x005A70FD+523789]
+	GetHandleVerifier [0x005A6E90+523168]
+	GetHandleVerifier [0x005AE1E7+552695]
+	GetHandleVerifier [0x005A78FA+525834]
+	Ordinal0 [0x0049B7FC+1095676]
+	Ordinal0 [0x004A633B+1139515]
+	Ordinal0 [0x004A64A3+1139875]
+	Ordinal0 [0x004A5425+1135653]
+	BaseThreadInitThunk [0x77076359+25]
+	RtlGetAppContainerNamedObjectPath [0x77A77B74+228]
+	RtlGetAppContainerNamedObjectPath [0x77A77B44+180]
+&#13;
+co.com.choucair.empleos.steps.ChoucairJobsStep.openPage(ChoucairJobsStep.java:14)&#13;
+co.com.choucair.empleos.definitions.JobsStepDefinition.thatLuisWantsSearchAWorkInTheSectionJobsWithBothField(JobsStepDefinition.java:68)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase><testcase name="Text"><skipped/></testcase><testcase name="Redirection (Link)"><skipped/></testcase></testsuite>

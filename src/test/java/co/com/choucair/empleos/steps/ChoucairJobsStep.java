@@ -31,11 +31,13 @@ public class ChoucairJobsStep {
 
     @Step
     public void checkText(List<DataModelStep> data) {
+
         choucairJobsPageObject.verifySearch(data);
     }
 
     @Step
     public void clickOnJobOffer() {
+
         choucairJobsPageObject.openJobOffer();
     }
 
@@ -50,6 +52,7 @@ public class ChoucairJobsStep {
     }
 
     public void writeWord(String word) {
+
         choucairJobsPageObject.word(word);
     }
 
@@ -58,14 +61,17 @@ public class ChoucairJobsStep {
     }
 
     public void enterDataToBothFields(List<DataModelStep> data) {
+
         choucairJobsPageObject.writeDataToBothFields(data);
     }
 
     public void checkKeyWord(String keyWord) {
+
         choucairJobsPageObject.verifyKeyWord(keyWord);
     }
 
     public void checkLocation(String location) {
+
         choucairJobsPageObject.verifyLocation(location);
     }
 }
