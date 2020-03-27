@@ -10,4 +10,5 @@ import org.junit.runner.RunWith;
         tags = "@Tag0",
         snippets = SnippetType.CAMELCASE )
 public class RunnerTags {
+	
 }
